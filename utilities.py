@@ -121,11 +121,11 @@ def tokenize_and_split_data(training_config, tokenizer):
   test_dataset = dataset["test"]
   return train_dataset, test_dataset
 
-# Tokenize and split data
-dataset_name = "devops_docs.jsonl"
+# Tokenize and split data, train data and model name, change it!
+dataset_name = "devops_docs_1.jsonl"
 dataset_path = f"{dataset_name}"
 use_hf = False
-model_name = "EleutherAI/pythia-70m"
+model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 training_config = {
     "model": {
