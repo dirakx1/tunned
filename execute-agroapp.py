@@ -2,7 +2,7 @@
 # conda activate slackllmbot
 # This uses lamini api key
 # export POWERML__PRODUCTION__KEY=
-# python3.10 training-agroapp.py 
+# python3.10 execute-agroapp.py 
 
 import logging
 from utilities import *
@@ -20,7 +20,7 @@ lamini.api_key = os.getenv("POWERML__PRODUCTION__KEY")
 
 
 ## Using a trainned model 
-llm = Lamini(model_name='6a2eabc6bd1bef03afd75e683d64f90f5f14ff436f62a64817d225975dd9776a')
+llm = Lamini(model_name='eeaa90bfec9522740c7adf09da34e59da41c1c49db66fe3f4ddb21b54985f250')
 
 
 def generate_response(prompt):
