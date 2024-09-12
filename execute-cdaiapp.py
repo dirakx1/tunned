@@ -5,6 +5,7 @@
 # python3.10 execute-cdaiapp.py 
 
 import logging
+import os
 from utilities import *
 from lamini import Lamini
 import gradio as gr
@@ -15,8 +16,8 @@ global_config = None
 # Train with lamini
 import lamini
 
-print (os.getenv("POWERML__PRODUCTION__KEY"))
-lamini.api_key = os.getenv("POWERML__PRODUCTION__KEY")
+#print (os.getenv("POWERML__PRODUCTION__KEY"))
+lamini.api_key = "7417748e68c7d1342652b741180fc452ba72452c0ed76f31f291a294fd4fe423"
 
 
 ## Using a trainned model 

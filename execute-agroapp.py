@@ -28,4 +28,4 @@ def generate_response(prompt):
     return response
 
 iface = gr.Interface(fn=generate_response, inputs="text", outputs="text", title="AgroApp AI")
-iface.launch(share=True)
+iface.launch(share=False)
