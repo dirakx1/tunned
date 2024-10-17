@@ -1,4 +1,4 @@
-gradio==4.44.0
+gradio==5.0.0
 gradio_client==1.3.0
 huggingface-hub==0.24.5
 lamini==2.2.0
