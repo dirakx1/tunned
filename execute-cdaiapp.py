@@ -1,5 +1,5 @@
 # conda info --envs
-# conda activate nameofvenen
+# conda activate nameofvenv
 # This uses lamini api key
 # export API__KEY=
 # python3.10 execute-cdaiapp.py 
